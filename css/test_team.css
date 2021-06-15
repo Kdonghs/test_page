@@ -1,0 +1,15 @@
+#team a {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 85px;
+    padding-bottom: 50px;
+}
+
+#team a > img{
+    border: white 1px solid;
+    width: 150px;
+    height: 150px;
+}

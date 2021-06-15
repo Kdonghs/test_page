@@ -1,0 +1,10 @@
+#review{
+    text-decoration: none;
+    -ms-overflow-style: none;
+    font-size: 30px;
+}
+
+#review h1{
+    text-align: center;
+    font-size: 200px;
+}

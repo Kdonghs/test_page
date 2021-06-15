@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>기말 테스트</title>
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/test_home.css">
+    <link rel="stylesheet" href="css/test_introduce.css">
+    <link rel="stylesheet" href="css/test_team.css">
+
+    <script rel="script" src="js/test_home.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script rel="script" src="js/test_introduce.js"></script>
+    <script src="https://masonry.desandro.com/masonry.pkgd.min.js"></script>
+    <script rel="script" src="js/test_team.js"></script>
+    <script rel="script" src="js/scroll.js"></script>
+
+</head>
+
+<body>
+<scroll>
+<header id="header">
+    <a onclick="fnMove('home')"><img src="img/logo.jpg"></a>
+    <a onclick="fnMove('home')" onmouseover="this.style.color='#e2012d'" onmouseleave="this.style.color='white'"> &nbsp&nbsp&nbsp 홈  </a>
+    <p>&nbsp|&nbsp</p>
+    <a onclick="fnMove('introduce')" onmouseover="this.style.color='#e2012d'" onmouseleave="this.style.color='white'"> 소개 </a>
+    <p>&nbsp|&nbsp</p>
+    <a onclick="fnMove('team')" onmouseover="this.style.color='#e2012d'" onmouseleave="this.style.color='white'"> 선수소개 </a>
+    <p>&nbsp|&nbsp</p>
+    <a onclick="fnMove('review')" onmouseover="this.style.color='#e2012d'" onmouseleave="this.style.color='white'"> 제작후기 </a>
+</header>
+
+<img src="img/top.png" onclick="fnMove('header')" id="button">
+
+<article>
+    <section id="home">
+        <h1>
+            <a onclick="fnMove('introduce')" onmouseover="on()" onmouseleave="leave()" id="welcome">환영합니다.</a>
+        </h1>
+        <script> next(); </script>
+    </section>
+
+    <section id="introduce">
+        <a onclick="fnMove('a1')">
+            <h1>
+                세계에서 가장 유명한 프로게임 팀중 하나
+            </h1>
+        </a>
+        <script> next(); </script>
+
+        <a id="a1" onclick="fnMove('a2')">
+            <h1>
+                T1
+            </h1>
+        </a>
+        <script> next(); </script>
+
+        <a id="a2" onclick="fnMove('a3')">
+            <ul class="hide" >
+                <li>스타크래프트 프로리그 7회우승</li><br>
+                <li>리그오브레전드 챔피언스 코리아 9회 우승</li><br>
+                <li>리그오브레전드 월드 챔피언쉽 3회우승</li><br>
+                <li>그 외에 다양한  대회에서도 뛰어난 성적을 보이는 명문 구단</li>
+            </ul>
+        </a>
+        <script> next(); </script>
+
+        <a id="a3" onclick="fnMove('a4')">
+            <ul class="hide" >
+                <li>처음에는 skt T1이라는 스타크래프트 프로팀으로 시작되었다.</li><br>
+                <li>스타크래프트가 최고의 인기를 달리고 있던시기 수많은 스타 플레이어들이 소속하고 있었으며</li><br>
+                <li>프로리그 7회 우승 3회 준우승으로 다른팀이 뛰어넘을 수 없는 기록을 보유하고 있다</li><br>
+                <li>추후 스타크래프트가 프로리그가 사라지게 되면서 다른 게임들의 선수단이 생기게 된다.</li>
+            </ul>
+        </a>
+        <script> next(); </script>
+
+        <a id="a4" onclick="fnMove('a5')">
+            <ul class="hide" >
+                <li>여러 게임에서 선수단을 운영하고 있지만 유독 리그오브레전드에서 큰 활약을 보이고 있다. </li><br>
+                <li>2012년 창단 이례로 많은 업적을 쌓으며 T1이라는 구단을 세계에서 가장 뛰어난 명문팀을 만드는데 공헌을 한다.</li><br>
+                <li>특히 세계대회라고 할 수 있는 월드챔피언쉽 msi 에서 각각 우승3회 우승2회를 하면서 <br>
+                    최다 우승 이라는 대기록을 가지고 있다.</li><br>
+                <li>이러한 기록들을 세우면서 팀의 규모도 커지게 되었다.</li><br>
+                <li>그렇게 되면서 많은 투자를 받기 위해서 skt T1에서 T1으로 게임단 이름이 바뀌게 된다.</li><br>
+            </ul>
+        </a>
+        <script> next(); </script>
+
+        <a id="a5" onclick="fnMove('a6')">
+            <ul class="hide" >
+                <li>수많은 업적능 세우면서 인기스타 반열에 오른 사람도 있는데  닉네임 Faker 이상혁 이다.</li><br>
+                <li>Faker선수는 창단 1년후인 2013년 입단해서부터 프로대회에서 우승을 바로 차지하며 화려하게 시작하였다.</li><br>
+                <li>그가 세운 업적들은 T1의 리그오브레전드 커리어에 모든 기여를 하였으며 </li><br>
+                <li>ESPN의 특집기사를 실을만큼의 영향력을 가졌으며</li><br>
+                <li>해외에서는 농구의 마이클 조던과 비교할 정도이다.</li><br>
+                <li>현제도 프로로서 게임의 출전하고 있고 프로게이머로서 많은 나이지만 정상급 기량을 보여주고 있다.</li><br>
+            </ul>
+        </a>
+        <script> next(); </script>
+
+        <a id="a6" onclick="fnMove('a7')">
+            <ul class="hide">
+                <li>이런 과정들이 있으면서 국내 프로팀 중에서도 상당히 큰 구단이 되었는데</li><br>
+                <li>sk가 모기업인 타 스포츠로 비교해보자면</li><br>
+                <li>포브스에서 측정한 가치를 기준으로 비교했을때</li><br>
+                <li>야구단 sk와이번즈의 가치는 1546억(19년 기준)</li><br>
+                <li>게임단 T1의 가치는 1.5억달러(20년 기준)</li><br>
+                <li>정도로 비슷하거나 좀더 큰 규모를 보이고 있다.</li>
+            </ul>
+        </a>
+        <script> next(); </script>
+
+        <a id="a7" onclick="fnMove('a8')">
+            <ul class="hide">
+                <img src="img/game_value.PNG" height="300" width="700">
+                <img src="img/baseball_value.PNG" width="600" height="610">
+            </ul>
+        </a>
+        <script> next(); </script>
+
+        <a id="a8">
+            <ul class="hide">
+                <li>이처럼 타 스포츠에 비해서도 게임단의 위상을 보여주고 있다.</li><br>
+                <li>만약 게임을 보는걸 취미로 즐기게 되었을때, T1이라는 최고의 팀을 응원한다는것만으로 <br>
+                    소속감과 자부심
+                    을 느끼게 될것입니다.</li><br>
+                <li>여기까지 내가 좋아하는 팀을 소개하기 위하여 소개를 작성했습니다.</li><br><br><br>
+                <a onclick="fnMove('team')">(팀 소개로 이동)</a>
+            </ul>
+        </a>
+        <script> next(); </script>
+    </section>
+</article>
+
+<section id="team">
+    <a href="https://t1.gg/teams/league-of-legends"><img src="img/icon1_Black.PNG" id="1" onmouseover="on_M(1)" onmouseleave="leave_M(1)"><br>League of Legends</a>
+    <a href="https://t1.gg/teams/fortnite"><img src="img/icon2_Black.PNG" id="2" onmouseover="on_M(2)" onmouseleave="leave_M(2)"><br>Fortnite</a>
+    <a href="https://t1.gg/teams/creators"><img src="img/icon3_Black.PNG" id="3" onmouseover="on_M(3)" onmouseleave="leave_M(3)"><br>Twitch</a>
+    <a href="https://t1.gg/teams/apex"><img src="img/icon4_Black.PNG" id="4" onmouseover="on_M(4)" onmouseleave="leave_M(4)"><br>APEX</a>
+    <a href="https://t1.gg/teams/hearthstone"><img src="img/icon5_Black.PNG" id="5" onmouseover="on_M(5)" onmouseleave="leave_M(5)"><br>Hearth Stone</a>
+    <a href="https://t1.gg/teams/pubg"><img src="img/icon6_Black.PNG" id="6" onmouseover="on_M(6)" onmouseleave="leave_M(6)"><br>PUBG</a>
+    <a href="https://t1.gg/teams/dota"><img src="img/icon7_Black.PNG" id="7" onmouseover="on_M(7)" onmouseleave="leave_M(7)"><br>DOTA2</a>
+    <a href="https://t1.gg/teams/smash"><img src="img/icon8_Black.PNG" id="8" onmouseover="on_M(8)" onmouseleave="leave_M(8)"><br>Super Smash Bros Ultimate</a>
+    <a href="https://t1.gg/teams/overwatch-contenders"><img src="img/icon9_Black.PNG" id="9" onmouseover="on_M(9)" onmouseleave="leave_M(9)"><br>Overwatch</a>
+    <a href="https://t1.gg/teams/league-of-legends-challengers"><img src="img/icon10_Black.PNG" id="10" onmouseover="on_M(10)" onmouseleave="leave_M(10)"><br>League of Legends Challengers</a>
+    <a href="https://t1.gg/teams/VALORANT"><img src="img/icon11_Black.PNG" id="11" onmouseover="on_M(11)" onmouseleave="leave_M(11)"><br>Valorant</a>
+    <br><br><br><br><p onclick="fnMove('review')">(리뷰로 이동)</p>
+    <script> next(); </script>
+</section>
+<section id="review">
+    <p>
+        내가 만든걸 누군가에게 보여진다는 것, 그리고 평가를 받는다는 자체는 당연하게 생각해서 걱정이 없었지만<br><br>
+        계획 단계에서 이야기 해보자면 무엇을 소개할지 소개할만한 내용이 보편적으로 흥미가 있을지에대한 부담이 있었고,<br><br>
+        구현 단계에서 html을 구성하는거 자체는 기존과제에서 해오던 것과 별 다음없어 무난하게 진행해왔지만,<br><br>
+        소개하려던 요소가 어설픈 디자인적 요소로 묻히는게 아닌가 하는 걱정, 그리고 많은 동적 요소를 넣고 싶었지만<br><br>
+        그로인해 허접해 보이지는 않을까하는 생각 들이 웹페이지를 구현하는데 생각을 많이 한 부분입니다.<br><br>
+        <br><br>
+    </p>
+    <ol>
+        <li>
+            컬러로는 T1의 퍼스널 컬러인 블랙과 화이트, 레드로 구성해서 네비부분에 마우스를 올리면 레드로 변화는 포인트를 추가 했습니다.
+        </li>
+        <br>
+        <li>
+            홈 화면에서는 블랙의 시크한 느낌을 유지하고 싶어서 겉표지라는 느낌으로 '환영합니다.' 라는 문구로 채웠습니다.
+        </li>
+        <br>
+        <li>
+            소개 항목에서는 ppt를 구성하는 느낌을 주고 싶어서 내용에 글을 도배하는 형태는 하지 않고, 내용은 간략하게 쓰되<br>
+            그 내용을 누르면 자동으로 화면이 내려가고, 글이 숨어있다가 보이게금 하는 효과를 주었습니다.
+        </li>
+        <br>
+        <li>
+            또한 편의를 위해 화면 맨위로 올라가는 버튼을 추가 하였습니다.
+        </li>
+        <br>
+        <li>
+            팀 항목에서는 컨셉을 유지하기 위해 아이콘에 마우스를 올리면 빨간색으로 변하고 T1팀 링크로 연결하였습니다.
+        </li>
+        <br>
+    </ol>
+
+    <br>
+    <ul>
+        참고 자료
+        <li>
+            브런치(https://brunch.co.kr/)의 화면 구성
+        </li>
+        <br>
+        <li>
+            t1(https://t1.gg/)정보 및 디자인 아이콘
+        </li>
+        <br>
+        <li>
+            flaticon(https://www.flaticon.com/)버튼으로 쓰인 픽토그램
+        </li>
+        <br>
+        <li>
+            구글(https://www.google.com)정보 및 js사용법
+        </li>
+    </ul>
+
+    <br>
+    <br>
+    <img src="img/제리.gif">
+    <p>&nbsp 감사합니다.</p>
+</section>
+</article>
+    </scroll>
+<footer>
+    <p>
+        &nbsp 이미지 아이콘 출처 https://t1.gg/
+        &nbsp |&nbsp 제작 김동혁
+    </p>
+</footer>
+</body>
+</html>

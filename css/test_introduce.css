@@ -1,0 +1,26 @@
+#introduce{
+    background: black;
+    color: white;
+    text-decoration: none;
+    -ms-overflow-style: none;
+}
+#introduce h1{
+    text-align: center;
+    font-size: 70px;
+}
+#introduce ul{
+    font-size: 30px;
+}
+#introduce .hide {
+    opacity:0;
+    margin-left:-300px;
+    max-width:100%;
+}
+#introduce h1{
+    font-size: 150px;
+    padding-top: 100px;
+    padding-bottom: -100px;
+}
+#introduce{
+    cursor: pointer;
+}
