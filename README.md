@@ -1,2 +1,4 @@
 # web programming final test_page
-2-1학기 웹프로그래밍 기말 과제
+2rd year summer semester<br>
+web programming final assignment<br>
+Create a webpage with a topic you want to introduce
